@@ -20,7 +20,7 @@ training_data = datasets.FashionMNIST(
 #downloading test data from open datasets
 test_data = datasets.FashionMNIST(
     root = "data",
-    train = True,
+    train = False,
     download = True,
     transform = "ToTensor()"
 )
